@@ -44,7 +44,7 @@ function toggleMenu(){
 
 const spotlightData = [
 {
-image:"images/mi.jpg",
+image:"mi.jpg",
 tag:"COMING SOON",
 title:"FREEFIREXIPL SEASON 11",
 date:"Registration Opens Soon",
@@ -52,7 +52,7 @@ text:"Bigger battles, stronger teams, exciting matches.",
 link:"#"
 },
 {
-image:"images/banner2.jpg",
+image:"banner2.jpg",
 tag:"UPDATE",
 title:"TOURNAMENT SCHEDULE",
 date:"Coming This Week",
@@ -60,7 +60,7 @@ text:"Official match schedule releasing shortly.",
 link:"#"
 },
 {
-image:"images/banner3.jpg",
+image:"banner3.jpg",
 tag:"SPECIAL EVENT",
 date:"Limited Event",
 title:"EXCLUSIVE REWARDS",
