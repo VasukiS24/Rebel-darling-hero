@@ -38,7 +38,38 @@
             <div class="brand">
     FREE<span>FIRE</span>XIPL
 </div>
+<a href="register.html" class="top-register">
+🔥 REGISTER HERE
+</a>
+<style>.top-register{
 
+    text-decoration:none;
+    color:white;
+
+    background:linear-gradient(45deg,#ff4500,#ffb000);
+
+    padding:12px 22px;
+
+    border-radius:25px;
+
+    font-weight:bold;
+
+    box-shadow:
+    0 0 20px orange;
+
+    transition:.3s;
+
+}
+
+
+.top-register:hover{
+
+    transform:scale(1.1);
+
+    box-shadow:
+    0 0 40px orange;
+
+}</style>
             <div class="menu-container">
 
                 <div class="hex-menu" onclick="toggleMenu()">
@@ -47,10 +78,17 @@
 
                 <div id="dropdown-menu">
                     <a href="captains.html">👑 Captains</a>
+                    <!-- NEW AUCTION BUTTON -->
+    <a href="auction.html" class="auction-btn">🔨 Auction</a>
+
                     <a href="tournaments.html">🏆 Tournaments</a>
                     <a href="register.html">🔥 Player Registration</a>
                     <a href="players.html">🎮 Registered Players</a>
                     <a href="index.html" class="back-btn">← Back to Home</a>
+                    <a href="level-ranking.html" class="back-home">
+🏆 PLAYER RANKING
+</a>
+<a href="admin-login.html">🔐 Admin</a>
                 </div>
 
             </div>
@@ -86,7 +124,44 @@
 
         <!-- HALL OF FAME -->
 
-        
+        <section class="championship-hero">
+
+    <div class="scan"></div>
+
+    <div class="hero-badge">
+        ● LIVE EVENT
+    </div>
+
+    <h2>FREEFIREXIPL</h2>
+
+    <h1>SEASON 11</h1>
+
+    <div class="prize-box">
+
+        <span>PRIZE POOL</span>
+
+        <h3 id="money">₹1,000</h3>
+
+    </div>
+
+    <div class="teams">
+
+        <span>RCB</span>
+        <span>SRH</span>
+        <span>CSK</span>
+        <span>MI</span>
+        <span>DC</span>
+        <span>RR</span>
+        <span>PBKS</span>
+        <span>KKR</span>
+
+    </div>
+
+    <p>
+        ⚔️ 8 Teams • 1 Champion • Unlimited Glory ⚔️
+    </p>
+
+</section>
 <!-- SPOTLIGHT ANNOUNCEMENTS -->
 
 <!-- SPOTLIGHT ANNOUNCEMENTS -->
@@ -101,49 +176,51 @@
         Discover the latest FREEFIREXIPL tournaments and updates here.
     </div>
 
+    <!-- SINGLE SLIDER CARD -->
     <div class="spotlight-card">
+
+        <!-- SWIPE / BUTTON HINT -->
         <div class="swipe-hint">
-    <span class="left-arrow">❮</span>
-    <span class="right-arrow">❯</span>
-</div>
-
-    <div class="spotlight-image">
-        <img id="spotlightImage" src="mi.jpg" alt="Tournament">
-    </div>
-    
-    <div class="spotlight-info">
-
-        <div class="spotlight-badge" id="spotlightTag">
-            COMING SOON
+            <span onclick="prevSlide()">❮</span>
+            <span onclick="nextSlide()">❯</span>
         </div>
 
-        <h2 id="spotlightTitle">FREEFIREXIPL SEASON 11</h2>
-
-        <div class="spotlight-date" id="spotlightDate">
-            Registration Opens Soon
+        <!-- IMAGE -->
+        <div class="spotlight-image">
+            <img id="spotlightImage" src="kiro.jpeg" alt="spotlight">
         </div>
 
-        <p id="spotlightText">
-            Bigger battles, stronger teams, exciting matches and a brand-new season.
-        </p>
+        <!-- INFO -->
+        <div class="spotlight-info">
 
-        <div class="spotlight-tags">
-    <span>🏆 Tournament</span>
-    <span>🔥 Season 11</span>
-    <span>🎮 Free Fire</span>
-    <span>🎮 Clash Squad</span>
-</div>
+            <div class="spotlight-badge" id="spotlightTag">
+                LIVE NOW
+            </div>
 
-        <a href="#" class="spotlight-btn" id="spotlightBanner">
-            Register Soon
-        </a>
+            <h2 id="spotlightTitle">
+                FREEFIREXIPL SEASON 11
+            </h2>
 
-       
+            <div class="spotlight-date" id="spotlightDate">
+                Registrations Are Live Now
+            </div>
+
+            <p id="spotlightText">
+                Bigger battles, stronger teams, exciting matches.
+            </p>
+
+            <div class="spotlight-tags" id="spotlightTags"></div>
+
+            
+            <a href="#" class="spotlight-btn" id="spotlightBanner">
+                VIEW DETAILS
+            </a>
+
+        </div>
+
     </div>
-
-</div>
-
 </section>
+
 
 
 
@@ -161,37 +238,37 @@
     </div>
 
     <div class="fame-card">
-        <img src="C:\Users\lenovo\Desktop\FREEFIREXIPL\rcb.webp" alt="">
+        <img src="dc.webp" alt="">
         <div class="season-tag">SEASON 2</div>
     </div>
 
     <div class="fame-card">
-        <img src="winner3.jpg" alt="">
+        <img src="rrrr.jpeg" alt="">
         <div class="season-tag">SEASON 3</div>
     </div>
 
     <div class="fame-card">
-        <img src="winner4.jpg" alt="">
+        <img src="rrrr.jpeg" alt="">
         <div class="season-tag">SEASON 4</div>
     </div>
 
     <div class="fame-card">
-        <img src="winner5.jpg" alt="">
+        <img src="rrrr.jpeg" alt="">
         <div class="season-tag">SEASON 5</div>
     </div>
 
     <div class="fame-card">
-        <img src="winner6.jpg" alt="">
+        <img src="mi.jpg" alt="">
         <div class="season-tag">SEASON 6</div>
     </div>
 
     <div class="fame-card">
-        <img src="winner7.jpg" alt="">
+        <img src="rcb.webp" alt="">
         <div class="season-tag">SEASON 7</div>
     </div>
 
     <div class="fame-card">
-        <img src="winner8.jpg" alt="">
+        <img src="rcb.webp" alt="">
         <div class="season-tag">SEASON 8</div>
     </div>
 
@@ -201,7 +278,7 @@
     </div>
 
     <div class="fame-card">
-        <img src="C:\Users\lenovo\Desktop\FREEFIREXIPL\rr.jpeg" alt="">
+        <img src="rrrr.jpeg" alt="">
         <div class="season-tag">SEASON 10</div>
     </div>
 
@@ -259,7 +336,36 @@
 </footer>
 
 
-<script src="script.js"></script>
+<script src="script.js?v=3"></script>
+<div style="position:fixed;bottom:20px;right:20px;background:#111;padding:15px;border-radius:10px;color:white;z-index:9999;">
+    <button id="playBtn">▶ Play</button>
+
+    <audio id="player">
+        <source src="fearu.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+</div>
+
+<script>
+const player = document.getElementById("player");
+const playBtn = document.getElementById("playBtn");
+
+playBtn.addEventListener("click", function () {
+    if (player.paused) {
+        player.play()
+            .then(() => {
+                playBtn.innerHTML = "⏸ Pause";
+            })
+            .catch(err => {
+                alert("Error: " + err.message);
+                console.error(err);
+            });
+    } else {
+        player.pause();
+        playBtn.innerHTML = "▶ Play";
+    }
+});
+</script>
 </body>
 
 </html>

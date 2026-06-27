@@ -48,18 +48,32 @@ body{
 /* Heading */
 .captains-heading{
     text-align:center;
-    font-family:'Audiowide', sans-serif;
-    font-size:22px;
-    font-weight:400;
+    font-family:'Orbitron', sans-serif;
+    font-size:30px;
+    font-weight:900;
     margin:20px 0;
-    color:white;
-    letter-spacing:2px;
-    text-transform:uppercase;
-    text-shadow:
-        0 0 6px #ff7b00,
-        0 0 12px #ff7b00;
+    padding:15px 10px;
+
+    background:linear-gradient(90deg,#120808,#2a0f0f,#120808);
+
+    border-left:4px solid #ff7b00;
+    border-right:4px solid #ff7b00;
+    border-radius:12px;
+
+    color:#ffb347;
+
+    box-shadow:0 0 18px rgba(255,123,0,.45);
 }
 
+.captains-heading::after{
+    content:"";
+    display:block;
+    width:180px;
+    height:3px;
+    background:#ff7b00;
+    margin:8px auto 0 auto;
+    box-shadow:0 0 10px #ff7b00;
+}
 /* List */
 .captains-list{
     display:flex;
@@ -157,10 +171,11 @@ body{
 }
 
 /* Arrow */
+
 .captain-item span{
     position:absolute;
     right:15px;
-    font-size:28px;
+    font-size:16px;   /* smaller text */
     color:white;
     opacity:.9;
     text-shadow:0 0 12px var(--team);
@@ -185,7 +200,7 @@ body{
 
 <a href="index.html" class="back-btn">← Back to Home</a>
 
-<h2 class="captains-heading">👑 CAPTAINS FOR SEASON 11 🧢</h2>
+<h2 class="captains-heading">👑 CAPTAINS FOR SEASON 11 </h2>
 
 <div class="captains-list">
 
@@ -195,16 +210,7 @@ body{
         <div class="team-name">SRH</div>
         <div class="captain-name">Captain BILLA</div>
     </div>
-    <span>❯❯</span>
-</div>
-
-<div class="captain-item rcb">
-    <img src="rcb.webp">
-    <div>
-        <div class="team-name">RCB</div>
-        <div class="captain-name">Captain PAVAN GAMER</div>
-    </div>
-    <span>❯❯</span>
+    <span>300RS❯❯</span>
 </div>
 
 <div class="captain-item csk">
@@ -213,7 +219,16 @@ body{
         <div class="team-name">CSK</div>
         <div class="captain-name">Captain ABHI</div>
     </div>
-    <span>❯❯</span>
+    <span>250RS❯❯</span>
+</div>
+
+<div class="captain-item rr">
+    <img src="rrrr.jpeg">
+    <div>
+        <div class="team-name">RR</div>
+        <div class="captain-name">Captain PAVAN GAMER</div>
+    </div>
+    <span>100RS❯❯</span>
 </div>
 
 <div class="captain-item mi">
@@ -222,50 +237,50 @@ body{
         <div class="team-name">MI</div>
         <div class="captain-name">Captain HARSHA</div>
     </div>
-    <span>❯❯</span>
+    <span>95RS❯❯</span>
+</div>
+
+<div class="captain-item rcb">
+    <img src="rcb.webp">
+    <div>
+        <div class="team-name">RCB</div>
+        <div class="captain-name">Captain NARESH</div>
+    </div>
+    <span>90RS❯❯</span>
 </div>
 
 <div class="captain-item kkr">
     <img src="kkr.webp">
     <div>
         <div class="team-name">KKR</div>
-        <div class="captain-name">Captain Rahul</div>
+        <div class="captain-name">Captain VENU</div>
     </div>
-    <span>❯❯</span>
-</div>
-
-<div class="captain-item rr">
-    <img src="rrrr.jpeg">
-    <div>
-        <div class="team-name">RR</div>
-        <div class="captain-name">Captain Akash</div>
-    </div>
-    <span>❯❯</span>
-</div>
-
-<div class="captain-item dc">
-    <img src="dc.webp">
-    <div>
-        <div class="team-name">DC</div>
-        <div class="captain-name">Captain LOKESH</div>
-    </div>
-    <span>❯❯</span>
+    <span>50RS❯❯</span>
 </div>
 
 <div class="captain-item pbks">
     <img src="pbks.webp">
     <div>
         <div class="team-name">PBKS</div>
-        <div class="captain-name">Captain Nikhil</div>
+        <div class="captain-name">Captain LOKI</div>
     </div>
-    <span>❯❯</span>
+    <span>50RS❯❯</span>
+</div>
+
+<div class="captain-item dc">
+    <img src="dc.webp">
+    <div>
+        <div class="team-name">DC</div>
+        <div class="captain-name">Captain RAFNA</div>
+    </div>
+    <span>20RS❯❯</span>
 </div>
 
 <div class="captain-item lsg">
     <img src="lsg.webp">
     <div>
         <div class="team-name">LSG</div>
-        <div class="captain-name">Captain Aditya</div>
+        <div class="captain-name">Captain </div>
     </div>
     <span>❯❯</span>
 </div>
@@ -274,7 +289,7 @@ body{
     <img src="gt.webp">
     <div>
         <div class="team-name">GT</div>
-        <div class="captain-name">Captain Pranav</div>
+        <div class="captain-name">Captain </div>
     </div>
     <span>❯❯</span>
 </div>
